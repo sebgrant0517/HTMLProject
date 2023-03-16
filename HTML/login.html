@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <title>Sebastian's Log In Demo</title>
+    <link rel="stylesheet" href="demo.css">
+    <script src="demo.js"></script>
+</head>
+<body>
+    <div class="header">
+        <h1>Please Log In</h1>
+    </div>
+    <ul>
+        <li><a href="demo.html">Home</a></li>
+        <li><a href="grovyle.html">My Favorite Pokemon</a></li>
+        <li><a href="rakan.html">My Favorite Champion</a></li>
+        <li><a href="#">Log In</a></li>
+    </ul>
+    <div class="row">
+        <form onsubmit="checkemail()">
+            <label for="email">Email Address:</label><br>
+            <input type="text" id="email" name="email" value=""><br>
+            <input type="submit" value="Submit">
+        </form>
+        <p id = "validation">
+        </p>
+    </div>
+</body>
+</html>
